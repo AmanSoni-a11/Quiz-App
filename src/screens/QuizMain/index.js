@@ -1,15 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import StartQuiz from './components/Screens/startQuiz'
-const App = () => {
+
+const QuizMain = () => {
   return (
     <View>
-      <Text>Hello World</Text>
-      {/* <StartQuiz/> */}
+      <Text>QuizMain</Text>
     </View>
   )
 }
 
-export default App
+export default QuizMain
 
 const styles = StyleSheet.create({})
